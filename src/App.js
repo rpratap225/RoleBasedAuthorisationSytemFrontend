@@ -65,7 +65,7 @@ export default function App() {
   fetch("https://localhost:9094/users/update", {
       "method": "POST",
       "headers": {
-         // "x-role-host": "fairestdb.p.rapidapi.com",
+         
           "x-role-key": API_KEY,
           "content-type": "application/json",
           "accept": "application/json"
